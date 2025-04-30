@@ -1,0 +1,52 @@
+name: app_tennis
+description: "Proyecto realizado para una prueba"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  auto_route: ^10.0.1
+  cupertino_icons: ^1.0.6
+  dio: ^5.8.0+1
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.2.1
+  flutter_riverpod: ^2.6.1
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.1.0
+  geolocator: ^14.0.0
+  intl: ^0.20.2
+  path: ^1.9.1
+  riverpod_annotation: ^2.6.1
+  sqflite: ^2.4.2
+  table_calendar: ^3.2.0
+
+dev_dependencies:
+  auto_route_generator: ^10.0.1
+  build_runner: ^2.4.15
+  flutter_gen_runner: ^5.10.0
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.6.5
+  riverpod_lint: ^2.6.5
+
+flutter_gen:
+  line_length: 80
+  output: lib/gen/
+  assets:
+    enabled: true
+    outputs:
+      class_name: MyAssets
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - .env.production
+    - .env.development

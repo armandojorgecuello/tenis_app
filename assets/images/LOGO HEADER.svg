@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="25" viewBox="0 0 125 25">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.327" x2="1" y2="0.321" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#aaf724" stop-opacity="0"/>
+      <stop offset="1" stop-color="#aaf724"/>
+    </linearGradient>
+  </defs>
+  <g id="LOGO_HEADER" data-name="LOGO HEADER" transform="translate(-87 -105)">
+    <g id="Grupo_45" data-name="Grupo 45">
+      <g id="Grupo_23" data-name="Grupo 23" transform="translate(152 105)">
+        <g id="Grupo_22" data-name="Grupo 22" transform="translate(0 -1)">
+          <rect id="Rectángulo_6" data-name="Rectángulo 6" width="60" height="24" transform="translate(0 2)" fill="url(#linear-gradient)"/>
+          <text id="Label" transform="translate(30 20)" fill="#fcfcfc" font-size="18" font-family="Poppins-Regular, Poppins"><tspan x="-23" y="0">court</tspan></text>
+        </g>
+      </g>
+      <text id="Label-2" data-name="Label" transform="translate(118 124)" fill="#fcfcfc" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-30" y="0">Tennis</tspan></text>
+    </g>
+  </g>
+</svg>

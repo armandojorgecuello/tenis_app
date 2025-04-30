@@ -1,0 +1,27 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'home_viewmodel.dart';
+
+// **************************************************************************
+// RiverpodGenerator
+// **************************************************************************
+
+String _$homeViewmodelHash() => r'8f3fd3a6e637c86db701ec6c7aaa4b3e5ecf7389';
+
+/// See also [HomeViewmodel].
+@ProviderFor(HomeViewmodel)
+final homeViewmodelProvider =
+    AutoDisposeNotifierProvider<HomeViewmodel, HomeUIEntity>.internal(
+      HomeViewmodel.new,
+      name: r'homeViewmodelProvider',
+      debugGetCreateSourceHash:
+          const bool.fromEnvironment('dart.vm.product')
+              ? null
+              : _$homeViewmodelHash,
+      dependencies: null,
+      allTransitiveDependencies: null,
+    );
+
+typedef _$HomeViewmodel = AutoDisposeNotifier<HomeUIEntity>;
+// ignore_for_file: type=lint
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
